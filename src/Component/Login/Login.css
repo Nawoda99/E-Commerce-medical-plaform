@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 1500px;
+    height: 20px;
+    background: #fff;
+    padding-bottom: 30px;
+
+}
+.header-bar{
+    background:linear-gradient(to right, rgba(1, 13, 128, 1), rgba(0, 58, 141, 1), rgba(0, 100, 154, 1), rgb(0, 160, 83), rgba(0, 168, 88, 1),rgba(0, 150, 74, 1),rgba(2, 120, 57, 1), rgba(0, 80, 36, 1));
+    
+    
+     
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 30px;
+    margin-left: 70px;
+    font-family: "TharLon", sans-serif;
+
+}
+
+
+
+.log{
+    margin-left: 75px;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+}
+
+.input {
+
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+    align-items: left;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.input input{
+    margin: 0px 30px;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 18px;
+}
+.submit_container{
+    display: flex;
+    gap: 30px;
+    margin: 60px;
+}
+.submit{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    color:  #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
