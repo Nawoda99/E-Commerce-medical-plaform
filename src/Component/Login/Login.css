@@ -1,80 +1,145 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 30px;
-    width: 1500px;
-    height: 20px;
-    background: #fff;
-    padding-bottom: 30px;
-
-}
-.header-bar{
-    background:linear-gradient(to right, rgba(1, 13, 128, 1), rgba(0, 58, 141, 1), rgba(0, 100, 154, 1), rgb(0, 160, 83), rgba(0, 168, 88, 1),rgba(0, 150, 74, 1),rgba(2, 120, 57, 1), rgba(0, 80, 36, 1));
-    
-    
-     
-    align-items: center;
-}
-
-h1{
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 700;
-    margin: 0px 30px;
-    margin-left: 70px;
-    font-family: "TharLon", sans-serif;
-
-}
-
-
-
-.log{
-    margin-left: 75px;
+.box {
+    height: 316px;
+    width: 2276px;
+  }
+  
+  .box .header {
     background-color: transparent;
-    width: 150px;
-    height: 150px;
-}
-
-.input {
-
-    display: flex;
-    gap: 5px;
-    margin-left: 30px;
-    align-items: left;
-    margin: auto;
-    width: 300px;
-    height: 40px;
-    background: #eaeaea;
-    border-radius: 6px;
-    font-size: 20px;
-}
-.input input{
-    margin: 0px 30px;
-    height: 50px;
-    width: 400px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #797979;
-    font-size: 18px;
-}
-.submit_container{
-    display: flex;
-    gap: 30px;
-    margin: 60px;
-}
-.submit{
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 50px;
-    color:  #fff;
-    background: #4c00b4;
-    border-radius: 50px;
-    font-size: 19px;
-    font-weight: 700;
-    cursor: pointer;
-
-}
+    height: 316px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 2286px;
+  }
+  
+  .box .overlap-group {
+    height: 316px;
+    position: relative;
+    width: 2276px;
+  }
+  
+  .box .rectangle {
+    background: linear-gradient(
+      90deg,
+      rgb(1, 13, 128) 10%,
+      rgb(0, 100, 154) 20.62%,
+      rgb(0, 127, 138) 30.73%,
+      rgb(0, 168, 88) 46.35%,
+      rgb(0, 150, 74) 62.5%,
+      rgb(2, 120, 57) 78.12%,
+      rgb(0, 79.64, 35.89) 94.27%
+    );
+    height: 241px;
+    left: 91px;
+    position: absolute;
+    top: 36px;
+    width: 2185px;
+  }
+  
+  .box .ellipse {
+    background-color: #ffffff;
+    border-radius: 153px/158px;
+    height: 316px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 306px;
+  }
+  
+  .box .img {
+    height: 238px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 41px;
+    width: 205px;
+  }
+  
+  .box .med {
+    -webkit-text-stroke: 1px #00000080;
+    color: #000000;
+    font-family: "?????-??", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 111px;
+    letter-spacing: 2.1px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 221px;
+    width: 35px;
+  }
+  
+  .box .pick {
+    -webkit-text-stroke: 1px #00000080;
+    color: #000000;
+    font-family: "?????-??", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 229px;
+    letter-spacing: 2.1px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 218px;
+    width: 43px;
+  }
+  
+  .box .med-pick {
+    color: #ffffff;
+    font-family: "?????-??", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 112px;
+    letter-spacing: 9.6px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 116px;
+    width: 783px;
+  }
+  
+  .box .element {
+    height: 54px;
+    left: 1854px;
+    object-fit: cover;
+    position: absolute;
+    top: 133px;
+    width: 40px;
+  }
+  
+  .box .text-wrapper {
+    color: #ffffff;
+    font-family: "Times New Roman-Regular", Helvetica;
+    font-size: 38px;
+    font-weight: 400;
+    left: 2045px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+    width: 139px;
+  }
+  
+  .box .div {
+    color: #ffffff;
+    font-family: "Times New Roman-Regular", Helvetica;
+    font-size: 38px;
+    font-weight: 400;
+    left: 1910px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+    width: 106px;
+  }
+  
+  .box .element-2 {
+    height: 45px;
+    left: 2022px;
+    object-fit: cover;
+    position: absolute;
+    top: 133px;
+    width: 45px;
+  }
+  

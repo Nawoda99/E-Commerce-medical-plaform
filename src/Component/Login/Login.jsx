@@ -5,40 +5,20 @@ import logo from "../Assests/logo.png"
 
 const Login = () => {
   return (
-    <div className="container">
-      <div className="header">
-      <header className="header-bar">
+    <div className="box">
+    <header className="header">
+      <div className="overlap-group">
+        <div className="rectangle" />
+        <div className="ellipse" />
+        <img className="img" alt="Rectangle" src="https://c.animaapp.com/iSnxZU2K/img/rectangle-1@2x.png" />
+        <div className="med">MED</div>
+        <div className="pick">PICK</div>
+        <div className="med-pick">MEDPICK</div>
         
-      
-      <div className="logo">
-         <img className="log" src={logo} alt="logo" />
-         <h1 >Medipick</h1>
-        </div>
         
-
-      </header>
       </div>
-      <div className="form">
-        <label className="we">We are </label>
-        <label className="medipick">Medipick</label>
-        <div className="input">
-          <input type="text" id="email" placeholder="Email" />
-        </div>
-        <div className="input">
-          <input type="text" id="password" placeholder="Password" />
-          </div> 
-          <div className="submit_container"> 
-         <button className="submit">Login</button>
-          <button className="submit">Register</button>
-         </div>
-          
-        
-
-        
-        
-       </div>
-      
-    </div>
+    </header>
+  </div>
   );
 };
 

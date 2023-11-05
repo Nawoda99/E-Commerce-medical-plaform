@@ -1,11 +1,12 @@
 import './App.css';
+
 import Login from './Component/Login/Login';
 
 
 function App() {
   return (
     <div >
-      <Login />
+      <Login/>
       
     </div>
   );
