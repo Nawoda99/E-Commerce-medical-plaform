@@ -1,145 +1,191 @@
-.box {
-    height: 316px;
-    width: 2276px;
-  }
-  
-  .box .header {
-    background-color: transparent;
-    height: 316px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 2286px;
-  }
-  
-  .box .overlap-group {
-    height: 316px;
+.lginform {
+    height: 502px;
     position: relative;
-    width: 2276px;
+    width: 576px;
+    margin-top: 150px;
+    margin-left: 500px;
   }
   
-  .box .rectangle {
-    background: linear-gradient(
-      90deg,
-      rgb(1, 13, 128) 10%,
-      rgb(0, 100, 154) 20.62%,
-      rgb(0, 127, 138) 30.73%,
-      rgb(0, 168, 88) 46.35%,
-      rgb(0, 150, 74) 62.5%,
-      rgb(2, 120, 57) 78.12%,
-      rgb(0, 79.64, 35.89) 94.27%
-    );
-    height: 241px;
-    left: 91px;
+  .lginform .login-form {
+    height: 502px;
+    position: fixed;
+    width: 590px;
+  }
+  
+  .lginform .rememberme {
+    color: #b7a3a3;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
-    top: 36px;
-    width: 2185px;
+    top: 272px;
+    width: 168px;
+  }
+  .lginform .forgot-password {
+    color: #120f0f;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 272px;
+    width: 192px;
   }
   
-  .box .ellipse {
+  .lginform .checkbox {
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    height: 23px;
+    left: 3px;
+    position: absolute;
+    top: 272px;
+    width: 23px;
+  }
+  
+  
+  
+  .lginform.overlap-group {
+    height: 67px;
+   
+    position: absolute;
+    
+    width: 561px;
+  }
+  .btnlog{
+    background-color: rgba(16, 185, 129, 1);
+    border: 1px solid;
+    border-color: #0e0e0e;
+    border-radius: 10px;
+    height: 67px;
+    margin-top: 400px;
+    left: 3px;
+    position: absolute;
+    top: 40px;
+    width: 561px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .lginform .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 227px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+    width: 114px;
+  }
+  
+  .lginform .create-a-new-account {
+    color: #000000;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 459px;
+    width: 333px;
+  }
+  
+  
+  
+  .lginform .email {
     background-color: #ffffff;
-    border-radius: 153px/158px;
-    height: 316px;
-    left: 0;
+    border: 1px solid;
+    border-color: #0e0e0e;
+    border-radius: 10px;
+    height: 67px;
+    left: 3px;
     position: absolute;
-    top: 0;
-    width: 306px;
+    top: 70px;
+    width: 561px;
+    font-size: 30px;
   }
   
-  .box .img {
-    height: 238px;
-    left: 91px;
-    object-fit: cover;
+  .lginform .pass {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0e0e0e;
+    border-radius: 10px;
+    height: 67px;
+    left: 3px;
     position: absolute;
-    top: 41px;
-    width: 205px;
+    top: 170px;
+    width: 561px;
+    font-size: 30px;
+    
+  }
+  .image {
+    
+  background-position: center;
+    height: 1184px;
+    width: 2184px;
   }
   
-  .box .med {
-    -webkit-text-stroke: 1px #00000080;
-    color: #000000;
-    font-family: "?????-??", Helvetica;
-    font-size: 14px;
+  .image .img {
+    height: 1184px;
+    left: 95px;
+    position: fixed;
+    top: 35px;
+    width: 2184px;
+  }
+  .label {
+    height: 105px;
+    width: 532px;
+  }
+  
+  .label .we-are-MEDPICK {
+    color: transparent;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 60px;
     font-weight: 400;
-    left: 111px;
-    letter-spacing: 2.1px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 221px;
-    width: 35px;
-  }
-  
-  .box .pick {
-    -webkit-text-stroke: 1px #00000080;
-    color: #000000;
-    font-family: "?????-??", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 229px;
-    letter-spacing: 2.1px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 218px;
-    width: 43px;
-  }
-  
-  .box .med-pick {
-    color: #ffffff;
-    font-family: "?????-??", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 112px;
-    letter-spacing: 9.6px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 116px;
-    width: 783px;
-  }
-  
-  .box .element {
-    height: 54px;
-    left: 1854px;
-    object-fit: cover;
-    position: absolute;
-    top: 133px;
-    width: 40px;
-  }
-  
-  .box .text-wrapper {
-    color: #ffffff;
-    font-family: "Times New Roman-Regular", Helvetica;
-    font-size: 38px;
-    font-weight: 400;
-    left: 2045px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 130px;
-    width: 139px;
+    position: fixed;
+    width: 532px;
+    top: 300px;
   }
   
-  .box .div {
-    color: #ffffff;
-    font-family: "Times New Roman-Regular", Helvetica;
-    font-size: 38px;
+  .label .we {
+    color: #521313;
+  }
+  
+  .label .span {
+    color: #009449;
+  }
+
+  .welcomelabel {
+    height: 92px;
+    width: 600px;
+  }
+  
+  .welcomelabel .welcome {
+    color: #a98989;
+    font-family: "TharLon-Regular", Helvetica;
+    font-size: 45px;
     font-weight: 400;
-    left: 1910px;
+    
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 130px;
-    width: 106px;
+    position: fixed;
+    top: 450px;
+    width: 600px;
   }
-  
-  .box .element-2 {
-    height: 45px;
-    left: 2022px;
-    object-fit: cover;
-    position: absolute;
-    top: 133px;
-    width: 45px;
-  }
-  

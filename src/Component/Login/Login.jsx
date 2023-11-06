@@ -1,24 +1,39 @@
 import React from "react";
-import "./Login.css";
 
-import logo from "../Assests/logo.png"
+import Header from "../Header/Header";
+
+import "./Login.css";
 
 const Login = () => {
   return (
-    <div className="box">
-    <header className="header">
-      <div className="overlap-group">
-        <div className="rectangle" />
-        <div className="ellipse" />
-        <img className="img" alt="Rectangle" src="https://c.animaapp.com/iSnxZU2K/img/rectangle-1@2x.png" />
-        <div className="med">MED</div>
-        <div className="pick">PICK</div>
-        <div className="med-pick">MEDPICK</div>
-        
-        
+    
+    <div className="header">
+      <Header />
+      <div className="lginform">
+      <div className="label">
+      <p className="we-are-MEDPICK">
+        <span className="we">We are&nbsp;&nbsp;</span>
+        <span className="span">MEDPICK</span>
+      </p>
+      <div className="welcomelabel">
+      <div className="welcome">Welcome Back,Please login</div>
+    </div>
+    </div>
+        <div className="login-form">
+          <div className="rememberme">Remember me</div>
+          <input type="checkbox" className="checkbox" />
+
+          <div className="forgot-password">Forgot Password?</div>
+           
+          <input type="email" className="email" placeholder="E-mail"/>
+          <input type="password" className="pass" placeholder="Password"/>
+        </div>
+        <div className="overlap-group">
+          <button className="btnlog">Login</button>
+        </div>
       </div>
-    </header>
-  </div>
+      
+    </div>
   );
 };
 

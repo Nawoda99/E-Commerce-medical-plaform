@@ -1,0 +1,159 @@
+.box {
+  height: 250px;
+  width: 1300px;
+}
+
+.box .header {
+  background-color: transparent;
+  height: 316px;
+  left: 0;
+
+  top: 0;
+  width: 2286px;
+}
+
+.box .overlap-group {
+  height: 316px;
+  position: relative;
+  width: 2276px;
+}
+
+.box .rectangle {
+  background: linear-gradient(90deg,
+      rgb(1, 13, 128) 10%,
+      rgb(0, 100, 154) 20.62%,
+      rgb(0, 127, 138) 30.73%,
+      rgb(0, 168, 88) 46.35%,
+      rgb(0, 150, 74) 62.5%,
+      rgb(2, 120, 57) 78.12%,
+      rgb(0, 79.64, 35.89) 94.27%);
+  height: 241px;
+  left: 91px;
+  position: absolute;
+  top: 36px;
+  width: 2185px;
+}
+
+.box .ellipse {
+  background-color: #ffffff;
+  border-radius: 153px/158px;
+  height: 316px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 306px;
+}
+
+.box .img {
+  height: 238px;
+  left: 91px;
+  object-fit: cover;
+  position: absolute;
+  top: 41px;
+  width: 205px;
+}
+
+.box .med {
+  -webkit-text-stroke: 1px #00000080;
+  color: #000000;
+  font-family: "?????-??", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 111px;
+  letter-spacing: 2.1px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 221px;
+  width: 35px;
+}
+
+.box .pick {
+  -webkit-text-stroke: 1px #00000080;
+  color: #000000;
+  font-family: "?????-??", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 229px;
+  letter-spacing: 2.1px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 218px;
+  width: 43px;
+}
+
+.box .med-pick {
+  color: #ffffff;
+  font-family: "?????-??", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 112px;
+  letter-spacing: 9.6px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 116px;
+  width: 783px;
+}
+
+.box .element {
+  height: 54px;
+  left: 1854px;
+  object-fit: cover;
+  position: absolute;
+  top: 133px;
+  width: 40px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Times New Roman-Regular", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  left: 2045px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 130px;
+  width: 139px;
+}
+
+.box .div {
+  color: #ffffff;
+  font-family: "Times New Roman-Regular", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  left: 1910px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 130px;
+  width: 106px;
+}
+
+.box .element-2 {
+  height: 45px;
+  left: 2022px;
+  object-fit: cover;
+  position: absolute;
+  top: 133px;
+  width: 45px;
+}
+.search{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.searchbar {
+ 
+}
+
+.search .searchicon {
+  display: flex;
+  margin-left: 900px;
+  margin-top: 90px;
+  position: absolute;
+}
