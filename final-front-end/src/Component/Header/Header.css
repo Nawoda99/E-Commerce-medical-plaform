@@ -3,20 +3,8 @@
   width: 1300px;
 }
 
-.box .header {
-  background-color: transparent;
-  height: 316px;
-  left: 0;
 
-  top: 0;
-  width: 2286px;
-}
 
-.box .overlap-group {
-  height: 316px;
-  position: relative;
-  width: 2276px;
-}
 
 .box .rectangle {
   background: linear-gradient(90deg,
@@ -83,9 +71,10 @@
   width: 43px;
 }
 
-.box .med-pick {
+.med-pick {
   color: #ffffff;
-  font-family: "?????-??", Helvetica;
+  font-family:  Helvetica;
+  top: 80px;
   font-size: 64px;
   font-weight: 400;
   left: 112px;
@@ -93,7 +82,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 116px;
+
   width: 783px;
 }
 
