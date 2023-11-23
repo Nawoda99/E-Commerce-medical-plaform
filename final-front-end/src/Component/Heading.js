@@ -4,7 +4,7 @@ const Heading = ({ text }) => {
   return (
     <h1
       style={{
-        color: "#009449",
+        color: "#000",
         textAlign: "center",
         fontFamily: "Montserrat",
         fontSize: "24px",

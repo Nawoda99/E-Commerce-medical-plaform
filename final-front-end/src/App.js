@@ -1,6 +1,8 @@
-import './App.css';
+
 import ButtonCustom from './Component/ButtonCustom';
-import Login from './Pages/Login/Login';
+
+import Login from './Pages/Login';
+import Register from './Pages/register';
 
 
 
@@ -10,7 +12,7 @@ import Login from './Pages/Login/Login';
 function App() {
   return (
     <div >
-      <Login/>
+      <Register/>
       
     </div>
   );
